@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import axios from "axios";
-
+ import Loader from 'react-loader-spinner'
 export default function Weather(props){
     const[temperature, setTemperature]= useState("");
     
@@ -19,7 +19,19 @@ if (temperature){
 
  axios.get(apiUrl).then(showWeather);
 
- return <h4><h4>Loading temperature for {props.city}...</h4>;</h4>
+ return (
+    <div>
+       <Loader
+         type="Puff"
+         color="#00BFFF"
+         height={100}
+         width={100}
+         timeout={3000} //3 secs
+ 
+      />
+ <h4>Loading temperature for {props.city}...</h4>
+ </div>
+ );
 }
 
 }
