@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import axios from "axios";
- import Loader from 'react-loader-spinner'
+import Loader from 'react-loader-spinner'
 export default function Weather(props){
     const[temperature, setTemperature]= useState("");
     
@@ -29,7 +29,7 @@ if (temperature){
          timeout={3000} //3 secs
  
       />
- <h4>Loading temperature for {props.city}...</h4>
+ <h4>Loading ...</h4>
  </div>
  );
 }
