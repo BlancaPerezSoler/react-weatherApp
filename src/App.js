@@ -7,18 +7,19 @@ function App() {
   return (
     <div className="App">
         <div className="wrapper">
-      <h1>Weather App</h1>
       <form>
         <input className="placeholder" type="text" placeholder="Search city..." />
         <input className="button" type="submit" value="Search" />
       </form>
       </div>
       <Container>
+        <div className="wrap-container">
      <Row>
+       
     <Col sm={4}>
-<div class="city-name">
+<div className="city-name">
     <h1>Amsterdam</h1>
-    <div class="description-weather"> Cloudy</div>  
+    <div className="description-weather"> Cloudy</div>  
     </div>  
     <div className="Col-4 col-md-4 current-date">
        Last updated 12:20<br /> 
@@ -39,7 +40,7 @@ function App() {
     <div className="currentTemperature"> 20
     </div> 
 
-    <div>
+    <div className="float-right">
     <a className="active" href="#">C</a> /
     <a  href="#">F</a> 
     </div>
@@ -49,6 +50,7 @@ function App() {
     </ul>
   </Col>  
 </Row>
+</div>
 </Container>
 <p>Forecast for next hours</p>
 <Container>
