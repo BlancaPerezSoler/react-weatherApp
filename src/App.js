@@ -40,7 +40,7 @@ function App() {
     <div className="currentTemperature"> 20
     </div> 
 
-    <div className="float-right">
+    <div className="float-sm-right">
     <a className="active" href="#">C</a> /
     <a  href="#">F</a> 
     </div>
@@ -51,7 +51,7 @@ function App() {
   </Col>  
 </Row>
 </div>
-</Container>
+</Container> <br/><br/>
 <p>Forecast for next hours</p>
 <Container>
   <Row>

@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  padding-top: 20px;
 margin: 20px 20%;
+border: 1px double black;
 }
 
 .App-logo {
@@ -71,5 +73,12 @@ Container{
 }
 
 .currentTemperature{
-  font-size: 120px;
+  font-size: 80px;
+  padding-top: 50px;
+}
+
+.float-sm-right{
+  position: relative;
+  top: -80px;
+  left: 80px;
 }
