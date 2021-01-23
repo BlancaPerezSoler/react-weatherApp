@@ -1,5 +1,6 @@
 import Weather from "./Weather";
 import { Container, Row, Col } from 'react-grid-system';
+import Forecast from "./Forecast";
 import './App.css';
 
 function App() {
@@ -53,7 +54,22 @@ function App() {
 <Container>
   <Row>
     <Col>
+    <Forecast />
     </Col>
+  <Col>
+  <Forecast />
+  
+  </Col>
+  <Col>
+  <Forecast />
+  
+  </Col><Col>
+  <Forecast />
+  
+  </Col><Col>
+  <Forecast />
+  
+  </Col>
   </Row>
 </Container>
   <Weather />
