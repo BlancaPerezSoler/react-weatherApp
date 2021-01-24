@@ -57,8 +57,8 @@ export default function Search(){
     </div> 
 
     <div className="float-sm-right">
-    <a className="active" href="#">C</a> /
-    <a  href="#">F</a> 
+    <span className="link">C</span> /
+    <span className="link">F</span> 
     </div>
     <ul>
         <li><em>Humidity</em> :59%</li>
