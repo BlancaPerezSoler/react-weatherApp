@@ -33,6 +33,8 @@ function App() {
   </Row>
 </Container>
   <Weather />
+  <p>Coded by <a href="https://www.linkedin.com/in/blancaperezsoler/">Blanca Perez Soler</a> <a href="https://github.com/BlancaPerezSoler/react-weatherApp">Open source</a></p>
+  
   </div>
   );
 }
