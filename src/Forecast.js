@@ -8,7 +8,8 @@ export default function Forecast(){
 <p>12.00</p> <br/> 
     <img 
     src="https://www.gstatic.com/images/icons/material/apps/weather/2x/heavy_rain_light_color_96dp.png"  
-    className="emoji-forecast" 
+    className="emoji-forecast"
+    alt="emoji weather" 
     />
     <div>12ºC/7ºC</div>
     
